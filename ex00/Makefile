@@ -10,7 +10,7 @@ CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
 # Les parchemins à compiler
-SRCS        = main.cpp print_que_des_nombres.cpp print_que_des_characteres.cpp print_float.cpp print_double.cpp print_nan.cpp
+SRCS        = main.cpp print_que_des_nombres.cpp print_que_des_characteres.cpp print_float.cpp print_double.cpp print_nan.cpp ScalarConverter.cpp
 OBJS        = $(SRCS:.cpp=.o)
 
 # La règle principale (Première règle lue)
